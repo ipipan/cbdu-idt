@@ -10,7 +10,7 @@ The resulting parallel corpus was used to train three text-to-text models: [plBA
 Prompt
 ------
 
-The prompt used to process the source texts with ChatGPT consisted of five conversation turns and contained two sets of example sentences and correspondind example responses.
+The prompt used to process the source texts with ChatGPT consisted of five conversation turns and contained two sets of example sentences and corresponding example responses.
 
 1. User:
 
