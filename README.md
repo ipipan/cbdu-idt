@@ -1,7 +1,7 @@
 Intralingual Diachronic Translation of CBDU Texts
 =================================================
 
-The repository contains a parallel corpus of the predictions of the models described in the paper "Evaluating the Use of Generative LLMs for Intralingual Diachronic Translation of Middle-Polish Texts into Contemporary Polish".
+The repository contains a parallel corpus and the predictions of the models described in the paper "Evaluating the Use of Generative LLMs for Intralingual Diachronic Translation of Middle-Polish Texts into Contemporary Polish".
 
 258 transcribed documents sourced from [CBDU](https://cbdu.ijp.pan.pl/) were translated into contemporary Polish using ChatGPT-3.5. 
 The resulting parallel corpus was used to train three text-to-text models: [plBART-base](https://huggingface.co/sdadas/polish-bart-base), [plT5-base](https://huggingface.co/allegro/plt5-base) and [plT5-large](https://huggingface.co/allegro/plt5-large). Please consult the paper for more details.
@@ -94,6 +94,7 @@ Scoring scale:
 | 2          | some meaning        | disfluent Polish     |
 | 1          | no meaning          | incomprehensible     |
 
+The file `human-evaluation.xlsx` contains the text and the scores for each sentence of the sample.
 
 Citation
 --------
